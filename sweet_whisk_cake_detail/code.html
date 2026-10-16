@@ -1,0 +1,422 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class",theme: {extend: {"colors": {"surface-tint": "#894c5c", "error-container": "#ffdad6", "on-secondary-fixed": "#231b00", "surface-container-lowest": "#ffffff", "secondary-fixed": "#f7e1a1", "on-surface-variant": "#524346", "on-background": "#1d1b18", "on-secondary-container": "#71612e", "inverse-on-surface": "#f6f0ea", "surface": "#fef8f2", "surface-container-high": "#ede7e1", "background": "#fef8f2", "surface-variant": "#e7e2dc", "primary-fixed": "#ffd9e0", "outline": "#847376", "secondary-container": "#f4de9e", "outline-variant": "#d6c1c5", "on-primary-fixed": "#380a1a", "error": "#ba1a1a", "on-secondary": "#ffffff", "on-surface": "#1d1b18", "surface-bright": "#fef8f2", "tertiary-fixed-dim": "#b7cbc1", "on-primary": "#ffffff", "on-secondary-fixed-variant": "#534614", "inverse-surface": "#32302c", "on-primary-container": "#733949", "on-error-container": "#93000a", "on-tertiary-fixed-variant": "#394a43", "tertiary": "#50625a", "surface-dim": "#dfd9d3", "tertiary-fixed": "#d3e7dc", "primary-container": "#f4a7b9", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#0e1f18", "surface-container-highest": "#e7e2dc", "secondary-fixed-dim": "#dac587", "surface-container-low": "#f8f3ed", "inverse-primary": "#ffb1c3", "primary": "#894c5c", "tertiary-container": "#adc1b7", "on-error": "#ffffff", "on-tertiary-container": "#3e4f48", "on-primary-fixed-variant": "#6e3545", "secondary": "#6d5d2a", "surface-container": "#f3ede7", "primary-fixed-dim": "#ffb1c3"},"borderRadius": {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},"spacing": {"margin": "2rem", "space-xl": "3rem", "space-md": "1.25rem", "space-sm": "0.75rem", "gutter": "1.5rem", "space-xs": "0.375rem", "space-lg": "2rem"},"fontFamily": {"label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Newsreader"], "headline-sm": ["Newsreader"], "body-lg": ["Plus Jakarta Sans"], "headline-xl": ["Newsreader"], "headline-md": ["Newsreader"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Newsreader"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Newsreader"]},"fontSize": {"label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500"}], "headline-lg": ["36px", {"lineHeight": "44px", "fontWeight": "500"}], "headline-sm": ["20px", {"lineHeight": "26px", "fontWeight": "500"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-xl": ["48px", {"lineHeight": "56px", "fontWeight": "500"}], "headline-md": ["24px", {"lineHeight": "30px", "fontWeight": "500"}], "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500"}], "headline-xl-mobile": ["36px", {"lineHeight": "42px", "fontWeight": "500"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "500"}]}}}};</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between"><div class="flex items-center gap-3"><img alt="Sweet Whisk Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2tF1YpvT9zih0-5StXLRF-P413DlxukJ7BfnahPwAWITkYtg8dKf75TYjUIgft_LfYuwG2kD1kLj0BwQde3ZxXFNStOI31TnwjwVRyeXbNHmRTBMBQiEqrKxFBY4L37E1N1osFy13Kqwap5Yz1w6M68mxKPUhx63kHbZJKvPOqDLl_j-Q9sDHEZzAYCqFTWHP3rq0e7s19oOdcnFvbMpMo5AjfxPcjBzP5JHgM7lfV35G-hu-L5gT"><span class="font-headline-md text-primary font-bold">Sweet Whisk</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-full px-4 py-2"><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="menu" href="#">Menu</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="cake-detail" href="#">Cake Detail</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="custom-cakes" href="#">Custom Cakes</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="gallery" href="#">Gallery</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="relative p-2 rounded-full hover:bg-surface-container-high transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-on-surface">shopping_bag</span><span class="absolute top-1 right-1 bg-primary text-on-primary text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span></a><a class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all px-6 py-2.5 rounded-full font-label-lg shadow-sm" data-path="order-now" href="#">Order Now</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Breadcrumb Navigation -->
+<div class="max-w-7xl mx-auto px-gutter py-4 w-full">
+<nav class="flex items-center gap-2 text-body-sm text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Menu</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Signature Cakes</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-medium">Raspberry Pistachio Dream</span>
+</nav>
+</div>
+<!-- Main Product Section -->
+<section class="max-w-7xl mx-auto px-gutter py-8 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Column: Image Gallery -->
+<div class="lg:col-span-7 flex flex-col gap-4">
+<!-- Main Photo -->
+<div class="relative w-full h-[450px] lg:h-[550px] rounded-xl overflow-hidden shadow-xl bg-surface-container-high group">
+<div class="w-full h-full bg-cover bg-center transition-all duration-500 group-hover:scale-105" data-alt="An exquisite Raspberry Pistachio Dream cake displayed on a rustic marble stand. The cake features three layers of pale green pistachio sponge filled with vibrant crimson raspberry compote and smooth white chocolate buttercream, garnished with crushed green pistachios and fresh whole raspberries. Soft natural morning window light illuminates the scene, highlighting the delicate textures of the frosting and crumbs. Warm cream background and pastel rose accents." id="main-image" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDx98y6WEuIYzzpz0ZX7oEhVGxLBH_adiV-a01DEUJDtkKkh8G3rnBxVvbNOwUiXQM6EYsUmfVoLCeUFpTERo2sBAkVvPd6bRurKJMVrTUcdaGBpefZY-qmkugPMuYkqfmhmw59usaHbABuY5BiHJn7sYwaU1aYfWoDZ5k0FgPVj4H9tR2hhpY8q1sucAc1GcnvGTLnUgZb8O1bT3dYdRYbHo3CU6AH4tiDgrj3oRAALcE3p856F9pu')"></div>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-label-lg shadow-sm">Signature Cake</span>
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-label-lg shadow-sm">Bestseller</span>
+</div>
+</div>
+<!-- Thumbnail Selectors -->
+<div class="grid grid-cols-4 gap-4">
+<button class="thumbnail-btn relative h-28 rounded-xl overflow-hidden shadow-sm transition-all ring-2 ring-primary ring-offset-2 ring-offset-surface" onclick="switchImage(0)">
+<div class="w-full h-full bg-cover bg-center" data-alt="Close up shot of the raspberry and pistachio garnish on top of the cake, showing vibrant red and green colors." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUgWzc96HnAf8cnrWPoYS6xLJOhyXbiiIJYKm8ls7lh8aF4QoBEb4Oey4PuYKonAE5Ks0iBRWOsQXMrsj8PSjK1YVaE_9apCbSSFD-MXQpvwM2TX8c3rZ9RVIYHWshiSCSQbrKGZUjuJrAWdPTccUZ2SlD_sMDJMt8E0Lt1CbJKGGGNXUGeDFJ7nnmY-vcToiHwyKfg2mCsjOhbr5w6289feWtiCDag0HcJpXM9upc3aYFEdVpTMaq')"></div>
+</button>
+<button class="thumbnail-btn relative h-28 rounded-xl overflow-hidden shadow-sm transition-all opacity-70 hover:opacity-100" onclick="switchImage(1)">
+<div class="w-full h-full bg-cover bg-center" data-alt="A clean slice of Raspberry Pistachio Dream cake showcasing the distinct layers of green sponge and red compote." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB5zyCWu7rFWPA8FDRM8bUqvU3SVL6RBxx6Bqhf-vXzIv2xj8piQd3lJP-Ll_0zz98imY17TzSHNS6jrU_WE-YqBWHjODXwQj_5KZZTrCB_jx9iXWgruVTXKR3Tz2Hv2eATRtWFtvGccHX1l-OQqhFZHQAC9KBCXBNlBmzSx9WpNp5IATfBqM9K2zbJ5IEfK-woPMdxTIH3gTXJeao9KDqupzezdRisCeWmsz8-TjToLaTZeRP_r6Ku')"></div>
+</button>
+<button class="thumbnail-btn relative h-28 rounded-xl overflow-hidden shadow-sm transition-all opacity-70 hover:opacity-100" onclick="switchImage(2)">
+<div class="w-full h-full bg-cover bg-center" data-alt="Top down view of the entire round cake decorated with white chocolate curls and crushed nuts." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB5UZI4gz4vq1I3i8FqequabvygjaOwRWLQcffF7DyhDks0dP6MWwdOzNXp5ncw78Z1lIgDuSgbEgeMphSWWP6FpmYjQpANjgsAy9D-pcnDZmvMbea7vAxLjPX2Xzd5r20ZaiJJe8EMod749zD-6HV8eZ118AIliUYrKFZ_VRSQgQ_cFIQdL8_C8oD6ffh85sYA-Tm9LtXI_HDaEkgmLjm0RaTJd-x3XazMN5oEnqYtDa1y2Um4qZ-7')"></div>
+</button>
+<button class="thumbnail-btn relative h-28 rounded-xl overflow-hidden shadow-sm transition-all opacity-70 hover:opacity-100" onclick="switchImage(3)">
+<div class="w-full h-full bg-cover bg-center" data-alt="Pastry chef delicately piping white chocolate buttercream onto the cake in a bright artisanal bakery kitchen." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAchmQDr6KzGaHpK70oR7QDn2VKv98X53tVCTCo-QzRjMEoZ9F7gIXZXlBXZ9kVOTzH1idLceCcVrR_91gfnLzJz7Sqs-JorH3srrGHbJ3xhHv0vnMD47XXvlKq4UuS2FBB81DycxhyeS_MpiX7hiBph7pulWL0wy81WVCVR9mKKxJRrMwzkU2VzQ2BkSEj-tqWcLBqsdjSaWuERtNCN9BUDiQHADi7PuuO-CO7Wg-zTWWi_SOfd808')"></div>
+</button>
+</div>
+</div>
+<!-- Right Column: Product Details -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<div>
+<h1 class="font-headline-lg text-primary mb-2">Raspberry Pistachio Dream</h1>
+<div class="flex items-center gap-3">
+<div class="flex items-center text-amber-500">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="text-body-sm font-medium text-on-surface">4.9 / 5</span>
+<a class="text-body-sm text-primary underline hover:opacity-80" href="#reviews-section">(128 reviews)</a>
+</div>
+</div>
+<div class="text-headline-md font-bold text-on-surface" id="product-price">₹3,850.00</div>
+<p class="text-body-md text-on-surface-variant">
+          Delicate pistachio sponge layered with tart raspberry compote and velvety white chocolate buttercream. Baked fresh daily with organic ingredients.
+        </p>
+<!-- Weight Selector -->
+<div class="flex flex-col gap-2">
+<label class="text-label-lg text-on-surface">Select Size / Weight</label>
+<div class="grid grid-cols-3 gap-3">
+<button class="weight-btn p-3 rounded-xl bg-primary text-on-primary text-center transition-all shadow-sm flex flex-col items-center" onclick="selectWeight(this, 48, '500g')"><span class="font-bold text-label-lg">500g</span><span class="text-xs opacity-90">₹3,850.00</span></button>
+<button class="weight-btn p-3 rounded-xl bg-surface-container-high text-on-surface text-center transition-all shadow-sm flex flex-col items-center hover:bg-primary-container/50" onclick="selectWeight(this, 85, '1kg')"><span class="font-bold text-label-lg">1kg</span><span class="text-xs text-on-surface-variant">₹6,800.00</span></button>
+<button class="weight-btn p-3 rounded-xl bg-surface-container-high text-on-surface text-center transition-all shadow-sm flex flex-col items-center hover:bg-primary-container/50" onclick="selectWeight(this, 160, '2kg')"><span class="font-bold text-label-lg">2kg</span><span class="text-xs text-on-surface-variant">₹12,800.00</span></button>
+</div>
+</div>
+<!-- Flavor / Layer Customization -->
+<div class="flex flex-col gap-2">
+<label class="text-label-lg text-on-surface">Sponge Flavor Notes</label>
+<div class="flex flex-wrap gap-2">
+<button class="flavor-btn px-4 py-2 rounded-full bg-primary text-on-primary text-label-lg transition-all shadow-sm" onclick="selectFlavor(this)">Classic Pistachio</button>
+<button class="flavor-btn px-4 py-2 rounded-full bg-surface-container-high text-on-surface text-label-lg transition-all hover:bg-primary-container/50" onclick="selectFlavor(this)">Vanilla Bean Infusion</button>
+<button class="flavor-btn px-4 py-2 rounded-full bg-surface-container-high text-on-surface text-label-lg transition-all hover:bg-primary-container/50" onclick="selectFlavor(this)">Dark Chocolate Twist</button>
+</div>
+</div>
+<!-- Message on Cake -->
+<div class="flex flex-col gap-2">
+<label class="text-label-lg text-on-surface">Custom Message on Cake (Optional)</label>
+<input class="px-4 py-3 rounded-xl bg-surface-container-low border border-outline-variant text-body-md outline-none focus:border-primary transition-colors text-on-surface" placeholder="e.g., Happy Birthday Sarah!" type="text">
+</div>
+<!-- Quantity & Date Picker -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex flex-col gap-2">
+<label class="text-label-lg text-on-surface">Quantity</label>
+<div class="flex items-center bg-surface-container-low rounded-xl border border-outline-variant overflow-hidden">
+<button class="px-4 py-3 text-on-surface hover:bg-surface-container-high transition-colors" onclick="decrementQty()"><span class="material-symbols-outlined text-[18px]">remove</span></button>
+<input class="w-full text-center bg-transparent border-none outline-none font-medium text-on-surface" id="quantity-input" readonly="" type="text" value="1">
+<button class="px-4 py-3 text-on-surface hover:bg-surface-container-high transition-colors" onclick="incrementQty()"><span class="material-symbols-outlined text-[18px]">add</span></button>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-label-lg text-on-surface">Delivery / Pickup Date</label>
+<input class="px-4 py-3 rounded-xl bg-surface-container-low border border-outline-variant text-body-md outline-none focus:border-primary transition-colors text-on-surface" type="date" value="2024-10-25">
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-4 pt-2">
+<button class="flex-1 bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all py-4 px-6 rounded-full font-label-lg shadow-md flex items-center justify-center gap-2 group">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+            Add to Cart
+          </button>
+<button class="flex-1 bg-primary text-on-primary hover:bg-primary/90 transition-all py-4 px-6 rounded-full font-label-lg shadow-md flex items-center justify-center gap-2">
+            Buy Now
+          </button>
+</div>
+<!-- Trust Badges -->
+<div class="grid grid-cols-3 gap-2 pt-4 border-t border-outline-variant/30">
+<div class="flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-primary text-[24px]">eco</span>
+<span class="text-body-sm text-on-surface-variant font-medium">100% Organic Ingredients</span>
+</div>
+<div class="flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-primary text-[24px]">local_shipping</span>
+<span class="text-body-sm text-on-surface-variant font-medium">Same-Day Delivery Available</span>
+</div>
+<div class="flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-primary text-[24px]">bakery_dining</span>
+<span class="text-body-sm text-on-surface-variant font-medium">Freshly Baked Daily</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Tabs Section -->
+<section class="w-full bg-surface-container-low py-16 mt-12">
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Tab Headers -->
+<div class="flex justify-center border-b border-outline-variant/40 mb-10 gap-8">
+<button class="pb-4 font-headline-md text-primary border-b-2 border-primary transition-all" id="tab-btn-description" onclick="switchTab('description')">Description &amp; Craft</button>
+<button class="pb-4 font-headline-md text-on-surface-variant hover:text-on-surface border-b-2 border-transparent transition-all" id="tab-btn-ingredients" onclick="switchTab('ingredients')">Ingredients &amp; Allergens</button>
+<button class="pb-4 font-headline-md text-on-surface-variant hover:text-on-surface border-b-2 border-transparent transition-all" id="tab-btn-reviews" onclick="switchTab('reviews')">Customer Reviews (128)</button>
+</div>
+<!-- Tab Content: Description -->
+<div class="tab-content max-w-4xl mx-auto flex flex-col gap-6 text-on-surface-variant" id="tab-content-description">
+<h3 class="font-headline-lg text-primary text-center mb-2">A Symphony of Nutty &amp; Tart Flavors</h3>
+<p class="text-body-lg leading-relaxed">
+          The Raspberry Pistachio Dream is our tribute to classic European patisserie craftsmanship with a contemporary artisanal twist. Every morning, our master bakers roast raw Sicilian pistachios to absolute perfection before grinding them into a fine, aromatic flour that forms the soul of our sponge layers.
+        </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-6">
+<div class="bg-surface p-6 rounded-xl shadow-sm flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-[32px]">spa</span>
+<h4 class="font-headline-sm text-on-surface">The Sponge Layers</h4>
+<p class="text-body-sm">Ultra-moist, nutty pistachio sponge infused with pure Madagascar vanilla extract and folded with whipped egg whites for an airy, cloud-like texture.</p>
+</div>
+<div class="bg-surface p-6 rounded-xl shadow-sm flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-[32px]">nutrition</span>
+<h4 class="font-headline-sm text-on-surface">The Compote &amp; Buttercream</h4>
+<p class="text-body-sm">Hand-simmered whole raspberries provide a delightful tart contrast, balanced expertly against silky, low-sugar white chocolate Swiss meringue buttercream.</p>
+</div>
+</div>
+<p class="text-body-md text-center italic">
+          "Designed to melt on your tongue and linger with the rich, comforting warmth of toasted nuts and sun-ripened berries."
+        </p>
+</div>
+<!-- Tab Content: Ingredients -->
+<div class="tab-content max-w-4xl mx-auto hidden flex-col gap-6 text-on-surface-variant" id="tab-content-ingredients">
+<h3 class="font-headline-lg text-primary text-center mb-2">Pure, Uncompromised Ingredients</h3>
+<p class="text-body-lg text-center mb-6">We source only the highest quality organic and locally farmed ingredients to ensure superior taste and purity.</p>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 text-center">
+<div class="bg-surface p-4 rounded-xl shadow-sm flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">audio_file</span>
+<span class="text-body-sm font-medium text-on-surface">Organic Flour</span>
+</div>
+<div class="bg-surface p-4 rounded-xl shadow-sm flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">egg</span>
+<span class="text-body-sm font-medium text-on-surface">Free-Range Eggs</span>
+</div>
+<div class="bg-surface p-4 rounded-xl shadow-sm flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">nutrition</span>
+<span class="text-body-sm font-medium text-on-surface">Sicilian Pistachios</span>
+</div>
+<div class="bg-surface p-4 rounded-xl shadow-sm flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">grocery</span>
+<span class="text-body-sm font-medium text-on-surface">Fresh Raspberries</span>
+</div>
+<div class="bg-surface p-4 rounded-xl shadow-sm flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">local_bar</span>
+<span class="text-body-sm font-medium text-on-surface">European Butter</span>
+</div>
+</div>
+<div class="bg-error-container/30 p-6 rounded-xl mt-6 flex items-start gap-4">
+<span class="material-symbols-outlined text-error text-[24px]">warning</span>
+<div>
+<h4 class="font-headline-sm text-error font-bold mb-1">Allergen Notice</h4>
+<p class="text-body-sm text-on-surface-variant">Contains tree nuts (pistachios), dairy (butter, milk solids), eggs, and wheat gluten. Prepared in a kitchen that also processes peanuts and soy.</p>
+</div>
+</div>
+</div>
+<!-- Tab Content: Reviews -->
+<div class="tab-content max-w-4xl mx-auto hidden flex-col gap-8" id="reviews-section">
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 bg-surface p-6 rounded-xl shadow-sm">
+<div class="flex items-center gap-4">
+<div class="text-4xl font-headline-lg font-bold text-primary">4.9</div>
+<div>
+<div class="flex items-center text-amber-500">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-body-sm text-on-surface-variant">Based on 128 verified customer reviews</p>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 rounded-full text-label-lg hover:bg-primary/90 transition-all shadow-sm">Write a Review</button>
+</div>
+<!-- Review Cards -->
+<div class="flex flex-col gap-4">
+<div class="bg-surface p-6 rounded-xl shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container font-bold flex items-center justify-center">EM</div>
+<div>
+<h4 class="font-headline-sm text-on-surface">Elena Mitchell</h4>
+<p class="text-body-sm text-on-surface-variant">Verified Buyer • 2 days ago</p>
+</div>
+</div>
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="text-body-md text-on-surface-variant">"Absolute perfection! Ordered this for my anniversary and everyone was raving about the pistachio sponge. Not too sweet, incredibly moist, and the raspberry compote cuts through the richness wonderfully."</p>
+</div>
+<div class="bg-surface p-6 rounded-xl shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container font-bold flex items-center justify-center">JD</div>
+<div>
+<h4 class="font-headline-sm text-on-surface">Jonathan Davis</h4>
+<p class="text-body-sm text-on-surface-variant">Verified Buyer • 1 week ago</p>
+</div>
+</div>
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="text-body-md text-on-surface-variant">"The packaging was stunning and arrived completely intact. You can truly taste the high quality of the Sicilian pistachios. Will definitely be ordering again for upcoming family birthdays!"</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- "You May Also Like" Section -->
+<section class="max-w-7xl mx-auto px-gutter py-16 w-full">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline-lg text-primary">You May Also Like</h2>
+<a class="text-label-lg text-primary hover:underline flex items-center gap-1" href="#">View Full Menu <span class="material-symbols-outlined text-[16px]">arrow_forward</span></a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Product Card 1 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="An elegant Earl Grey Lavender cake with pale purple frosting, decorated with dried lavender buds and subtle gold flakes on a cream background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCIpZBgtGZds49VNr-lcXUonTpZnpWQyO3tb1u1vSBWuTgeB3HjUp33ZIvQAP5wQK9wJgW4L8ESdPEKfqQQ6zSl2X3KQjay85-5ABujZlI71Fom55RNMJGU-aLrrzKwLxeWqxiwabSOCt9Tk9iMSSedBVEQlmXowh-_PB0OkunT8S9ePgmu3RHSJyjXpyzt0Xt2cXRAd5HwbULu0ydFnjzUmuHeV9SgtGm1blXD5oj-5OXAEykBEgQ3')"></div>
+<span class="absolute top-3 left-3 bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-label-md">Seasonal</span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-on-surface mb-1">Earl Grey Lavender Cake</h3>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Infused with organic bergamot tea and subtle lavender honey buttercream.</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-bold text-headline-md text-primary">₹3,450.00</span>
+<button class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all p-2.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A box of four decadent Vanilla Bean Velvet Cupcakes topped with glossy cream cheese frosting and tiny gold star sprinkles." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBM4evBmxSGMJYhwORaDcuTycKZ8yq6X564NtsWsDpAYvWyLL6049IdYzEKe-eI6Bh7zFxrA6IJL833RnljfeTke-WKMkCKIf0bQ3XEULw4J3EjCVUntRUy1YfeCk6cnYACQzFRBbm-meRs8JFmeb0pcnYU3aKeGqt6lqHfOzbfpTEeAfLRYeFg7V3zmJhme2Si1DT1foz9cOxosF_M6K_SJWD-5KsxJzmKIxDDzkm_goZNvUF0qSko')"></div>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-label-md">Popular</span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-on-surface mb-1">Vanilla Bean Velvet Cupcakes</h3>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Box of 6 fluffy velvet cupcakes with Madagascar vanilla bean cream.</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-bold text-headline-md text-primary">₹1,850.00</span>
+<button class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all p-2.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Golden flaky French butter croissants arranged on a wire rack with a dusting of confectioner's sugar." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAGmFGlpgW4X9t7lil2Z2OiYT6KGUVe38M853cPapdPGyIdla0FCyLh1LyQ1KaOeMpXU2CFSha6vuG3cjpKx4bmiC_8OPB7J3-GXz14LJkth_mZBKcP2_P2vlLq8Z4qC5ZRL-1FoAWTn5jYNtuf-bCuaJuCcvPfSq1y3l2gskOvH3yF3MXMiFxQt3tq765JlCc7hLPOx9CSrJCUaaajD9aROjhfb-o6lzUM-DAH1q03qTjIzPoFOt5o')"></div>
+<span class="absolute top-3 left-3 bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-full text-label-md">Fresh Baked</span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-on-surface mb-1">French Butter Croissant</h3>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Flaky, golden layers made with authentic cultured Normandy butter.</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-bold text-headline-md text-primary">₹450.00</span>
+<button class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all p-2.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A slice of rich, dense flourless chocolate torte dusted with cocoa powder and served with fresh raspberries." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBr1i5RDXnxXpeNlEcr3Mk3REfNeeuKDqfCsvY4oDrIQa4jX2kkHSfX-Ho1cUkwgLdcPR0N46adF3VZ23iZF0d__rEeOxv3zO1CW04mkIrmpWWTHJgTU4UdxMY6c1S8XOxUw78YFjeYixo51LiHSWNf3fN9ppqsRE_8ODwivLSkTncgpY_CqlESMwNZ8Cy4GM5uD6iJlWGh87dac26eAhnfQUQ8T3zGuyWiP9CQnyCZJP1hPb4TQ_-g')"></div>
+<span class="absolute top-3 left-3 bg-error-container text-on-error-container px-3 py-1 rounded-full text-label-md">Gluten Free</span>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-on-surface mb-1">Rich Flourless Torte</h3>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Deep, velvety single-origin dark chocolate torte with a silky ganache glaze.</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-bold text-headline-md text-primary">₹3,200.00</span>
+<button class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all p-2.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Client-side Script -->
+<script>
+    const images = [
+      "url('placeholder')",
+      "url('placeholder')",
+      "url('placeholder')",
+      "url('placeholder')"
+    ];
+
+    function switchImage(index) {
+      const mainImg = document.getElementById('main-image');
+      mainImg.style.backgroundImage = images[index];
+      
+      const thumbnails = document.querySelectorAll('.thumbnail-btn');
+      thumbnails.forEach((btn, idx) => {
+        if (idx === index) {
+          btn.classList.add('ring-2', 'ring-primary', 'ring-offset-2', 'ring-offset-surface');
+          btn.classList.remove('opacity-75');
+        } else {
+          btn.classList.remove('ring-2', 'ring-primary', 'ring-offset-2', 'ring-offset-surface');
+          btn.classList.add('opacity-75');
+        }
+      });
+    }
+
+    function selectWeight(button, price, weight) {
+      document.querySelectorAll('.weight-btn').forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface');
+      });
+      button.classList.remove('bg-surface-container-high', 'text-on-surface');
+      button.classList.add('bg-primary', 'text-on-primary');
+
+      document.getElementById('product-price').innerText = '$' + price.toFixed(2);
+    }
+
+    function selectFlavor(button) {
+      document.querySelectorAll('.flavor-btn').forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface');
+      });
+      button.classList.remove('bg-surface-container-high', 'text-on-surface');
+      button.classList.add('bg-primary', 'text-on-primary');
+    }
+
+    let qty = 1;
+    function incrementQty() {
+      qty++;
+      document.getElementById('quantity-input').value = qty;
+    }
+    function decrementQty() {
+      if (qty > 1) {
+        qty--;
+        document.getElementById('quantity-input').value = qty;
+      }
+    }
+
+    function switchTab(tabName) {
+      ['description', 'ingredients', 'reviews'].forEach(name => {
+        const content = document.getElementById('tab-content-' + name);
+        const btn = document.getElementById('tab-btn-' + name);
+        if (name === tabName) {
+          content.classList.remove('hidden');
+          content.classList.add('flex');
+          btn.classList.add('text-primary', 'border-primary');
+          btn.classList.remove('text-on-surface-variant', 'border-transparent');
+        } else {
+          content.classList.add('hidden');
+          content.classList.remove('flex');
+          btn.classList.remove('text-primary', 'border-primary');
+          btn.classList.add('text-on-surface-variant', 'border-transparent');
+        }
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-gutter grid grid-cols-1 md:grid-cols-4 gap-space-xl mb-space-xl"><div><h3 class="font-headline-sm text-primary mb-space-sm">Sweet Whisk</h3><p class="text-body-sm text-on-surface-variant mb-space-md">Artisanal cakes and pastries baked fresh daily with organic ingredients and endless love.</p><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80">public</span><span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80">share</span><span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80">photo_camera</span></div></div><div><h3 class="font-headline-sm text-on-surface mb-space-sm">Visit Us</h3><p class="text-body-sm text-on-surface-variant">123 Pastry Lane, Sugarloaf District</p><p class="text-body-sm text-on-surface-variant mt-1">Phone: (555) 123-4567</p></div><div><h3 class="font-headline-sm text-on-surface mb-space-sm">Opening Hours</h3><p class="text-body-sm text-on-surface-variant">Mon - Fri: 7:00 AM - 7:00 PM</p><p class="text-body-sm text-on-surface-variant mt-1">Sat - Sun: 8:00 AM - 6:00 PM</p></div><div><h3 class="font-headline-sm text-on-surface mb-space-sm">Newsletter</h3><p class="text-body-sm text-on-surface-variant mb-space-sm">Subscribe for secret recipes and seasonal updates.</p><div class="flex gap-2"><input class="bg-surface px-4 py-2 rounded-full border border-outline-variant text-body-sm w-full outline-none focus:border-primary" placeholder="Your email" type="email"><button class="bg-primary text-on-primary px-4 py-2 rounded-full text-label-lg hover:bg-primary-container hover:text-on-primary-container transition-colors">Join</button></div></div></div><div class="max-w-7xl mx-auto px-gutter pt-space-md border-t border-outline-variant/30 text-center text-body-sm text-on-surface-variant">© 2024 Sweet Whisk Artisanal Bakery. All rights reserved.</div></footer>
+
+
+</body></html>

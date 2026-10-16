@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class",theme: {extend: {"colors": {"surface-tint": "#894c5c", "error-container": "#ffdad6", "on-secondary-fixed": "#231b00", "surface-container-lowest": "#ffffff", "secondary-fixed": "#f7e1a1", "on-surface-variant": "#524346", "on-background": "#1d1b18", "on-secondary-container": "#71612e", "inverse-on-surface": "#f6f0ea", "surface": "#fef8f2", "surface-container-high": "#ede7e1", "background": "#fef8f2", "surface-variant": "#e7e2dc", "primary-fixed": "#ffd9e0", "outline": "#847376", "secondary-container": "#f4de9e", "outline-variant": "#d6c1c5", "on-primary-fixed": "#380a1a", "error": "#ba1a1a", "on-secondary": "#ffffff", "on-surface": "#1d1b18", "surface-bright": "#fef8f2", "tertiary-fixed-dim": "#b7cbc1", "on-primary": "#ffffff", "on-secondary-fixed-variant": "#534614", "inverse-surface": "#32302c", "on-primary-container": "#733949", "on-error-container": "#93000a", "on-tertiary-fixed-variant": "#394a43", "tertiary": "#50625a", "surface-dim": "#dfd9d3", "tertiary-fixed": "#d3e7dc", "primary-container": "#f4a7b9", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#0e1f18", "surface-container-highest": "#e7e2dc", "secondary-fixed-dim": "#dac587", "surface-container-low": "#f8f3ed", "inverse-primary": "#ffb1c3", "primary": "#894c5c", "tertiary-container": "#adc1b7", "on-error": "#ffffff", "on-tertiary-container": "#3e4f48", "on-primary-fixed-variant": "#6e3545", "secondary": "#6d5d2a", "surface-container": "#f3ede7", "primary-fixed-dim": "#ffb1c3"},"borderRadius": {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},"spacing": {"margin": "2rem", "space-xl": "3rem", "space-md": "1.25rem", "space-sm": "0.75rem", "gutter": "1.5rem", "space-xs": "0.375rem", "space-lg": "2rem"},"fontFamily": {"label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Newsreader"], "headline-sm": ["Newsreader"], "body-lg": ["Plus Jakarta Sans"], "headline-xl": ["Newsreader"], "headline-md": ["Newsreader"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Newsreader"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Newsreader"]},"fontSize": {"label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500"}], "headline-lg": ["36px", {"lineHeight": "44px", "fontWeight": "500"}], "headline-sm": ["20px", {"lineHeight": "26px", "fontWeight": "500"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-xl": ["48px", {"lineHeight": "56px", "fontWeight": "500"}], "headline-md": ["24px", {"lineHeight": "30px", "fontWeight": "500"}], "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500"}], "headline-xl-mobile": ["36px", {"lineHeight": "42px", "fontWeight": "500"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "500"}]}}}};</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between"><div class="flex items-center gap-3"><img alt="Sweet Whisk Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2tF1YpvT9zih0-5StXLRF-P413DlxukJ7BfnahPwAWITkYtg8dKf75TYjUIgft_LfYuwG2kD1kLj0BwQde3ZxXFNStOI31TnwjwVRyeXbNHmRTBMBQiEqrKxFBY4L37E1N1osFy13Kqwap5Yz1w6M68mxKPUhx63kHbZJKvPOqDLl_j-Q9sDHEZzAYCqFTWHP3rq0e7s19oOdcnFvbMpMo5AjfxPcjBzP5JHgM7lfV35G-hu-L5gT"/><span class="font-headline-md text-primary font-bold">Sweet Whisk</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-full px-4 py-2"><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="menu" href="#">Menu</a><a aria-current="page" class="transition-colors bg-primary-container text-on-primary-container font-bold rounded-full px-4 py-2" data-path="custom-cakes" href="#">Custom Cakes</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="gallery" href="#">Gallery</a><a class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="relative p-2 rounded-full hover:bg-surface-container-high transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-on-surface">shopping_bag</span><span class="absolute top-1 right-1 bg-primary text-on-primary text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span></a><a class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-all px-6 py-2.5 rounded-full font-label-lg shadow-sm" data-path="order-now" href="#">Order Now</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Hero / Introduction Section -->
+<section class="relative w-full pt-12 pb-16 px-gutter bg-gradient-to-br from-primary-fixed/30 via-surface to-secondary-fixed/20 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-7 flex flex-col items-start gap-space-md">
+<span class="font-label-md uppercase tracking-wider text-primary bg-primary-container/40 px-4 py-1.5 rounded-full">Bespoke Creations</span>
+<h1 class="font-headline-xl text-on-surface font-normal">Handcrafted Custom Cakes for Life's Sweetest Moments</h1>
+<p class="font-body-lg text-on-surface-variant max-w-2xl">From dreamy multi-tiered wedding celebrations to intimate birthday gatherings, our master pastry chefs transform your vision into an edible work of art.</p>
+<div class="flex items-center gap-space-md pt-2">
+<a class="bg-primary text-on-primary font-label-lg px-8 py-3.5 rounded-full hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm" href="#inquiry-form">Start Your Order</a>
+<a class="font-label-lg text-primary hover:text-on-surface transition-colors flex items-center gap-2" href="#process">View 3-Step Process <span class="material-symbols-outlined text-[18px]">arrow_downward</span></a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="absolute -inset-4 bg-primary-fixed/40 rounded-3xl blur-2xl -z-10"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/5] bg-cover bg-center" data-alt="A magnificent multi-tiered wedding cake decorated with delicate handmade sugar peonies and cascading gold leaf accents, set against a soft blush pink background with dramatic warm lighting highlighting the artisanal texture of the frosting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBV6jLYVNqa51h8uKCsvkSBFwo9JKStWFIKJ5jaiuLfB5iOUIk55nUrIuLw6-PYZpNbaIrbK2Pz6sXXuH23CMxOpc32giI1AoCotvJ_ktoIRtnVz93UqWxMaZn2OOxXADvWqoJk5D3-cAd16yzV-dk80L5Fr-BstHIK3ftuzK8yHFY-HogMFoFf8ArGCEsDxPQJopdtlhbXnLVttxytQyh4u5smxAfEvolnCI4fKqE_06pagIC4R0qR')"></div>
+</div>
+</div>
+</section>
+<!-- The 3-Step Process Section -->
+<section class="w-full py-20 px-gutter bg-surface-container-low" id="process">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-md uppercase tracking-wider text-primary mb-2 block">Simple & Seamless</span>
+<h2 class="font-headline-lg text-on-surface">The Bespoke Cake Process</h2>
+<p class="font-body-md text-on-surface-variant mt-2">Creating your dream cake is an effortless collaboration in three delightful steps.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Step 1 -->
+<div class="bg-surface p-space-lg rounded-2xl shadow-sm relative flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="absolute top-6 right-6 font-headline-lg text-primary/20 font-bold">01</div>
+<div>
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined">bakery_dining</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-2">Choose Flavor & Filling</h3>
+<p class="font-body-sm text-on-surface-variant">Select from our signature Madagascar vanilla bean, dark Belgian chocolate, zesty lemon elderflower, and velvety fillings like salted caramel buttercream or raspberry coulis.</p>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/20 flex items-center gap-2 text-primary font-label-lg">
+<span>Explore Menu Flavors</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface p-space-lg rounded-2xl shadow-sm relative flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="absolute top-6 right-6 font-headline-lg text-primary/20 font-bold">02</div>
+<div>
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined">palette</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-2">Select Size & Design</h3>
+<p class="font-body-sm text-on-surface-variant">Determine your guest count and share your aesthetic preferences. Upload inspiration boards, color swatches, or select from our iconic floral and minimalist texture styles.</p>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/20 flex items-center gap-2 text-primary font-label-lg">
+<span>View Size Guide</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface p-space-lg rounded-2xl shadow-sm relative flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="absolute top-6 right-6 font-headline-lg text-primary/20 font-bold">03</div>
+<div>
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined">local_shipping</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-2">Pickup or White-Glove Delivery</h3>
+<p class="font-body-sm text-on-surface-variant">Pick up your boxed masterpiece at our bakery or opt for our careful white-glove delivery and on-site assembly service for large weddings and events.</p>
+</div>
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/20 flex items-center gap-2 text-primary font-label-lg">
+<span>Delivery Zones</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Cake Inquiry & Customization Form -->
+<section class="w-full py-20 px-gutter bg-surface" id="inquiry-form">
+<div class="max-w-4xl mx-auto bg-surface-container-low rounded-3xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+<!-- Decorative background blur -->
+<div class="absolute -top-24 -right-24 w-72 h-72 bg-primary-container/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-72 h-72 bg-secondary-fixed/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="text-center max-w-xl mx-auto mb-12 relative z-10">
+<span class="font-label-md uppercase tracking-wider text-primary mb-2 block">Begin Your Design</span>
+<h2 class="font-headline-lg text-on-surface">Custom Cake Inquiry Form</h2>
+<p class="font-body-md text-on-surface-variant mt-2">Fill out the details below and our lead cake architect will get back to you within 24 hours with a personalized quote and tasting consultation.</p>
+</div>
+<form class="space-y-space-lg relative z-10" onsubmit="event.preventDefault(); alert('Thank you! Your custom cake inquiry has been submitted successfully. We will reach out within 24 hours.');">
+<!-- Contact Information -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Full Name</label>
+<input class="w-full bg-surface px-4 py-3 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors" placeholder="e.g. Jane Doe" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Email Address</label>
+<input class="w-full bg-surface px-4 py-3 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors" placeholder="jane@example.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Phone Number</label>
+<input class="w-full bg-surface px-4 py-3 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors" placeholder="(555) 000-0000" required="" type="tel"/>
+</div>
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Event Date</label>
+<input class="w-full bg-surface px-4 py-3 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors" required="" type="date"/>
+</div>
+</div>
+<!-- Event Specs -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Estimated Guest Count</label>
+<select class="w-full bg-surface px-4 py-3 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors">
+<option>Intimate Gathering (10 - 25 guests)</option>
+<option>Medium Celebration (25 - 50 guests)</option>
+<option>Grand Event (50 - 100 guests)</option>
+<option>Large Wedding or Gala (100+ guests)</option>
+</select>
+</div>
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Service Needed</label>
+<select class="w-full bg-surface px-4 py-3 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors">
+<option>Bakery Pickup</option>
+<option>Local Delivery</option>
+<option>White-Glove Delivery & On-site Setup</option>
+</select>
+</div>
+</div>
+<!-- Flavor & Filling Selection -->
+<div>
+<label class="block font-label-lg text-on-surface mb-3">Preferred Cake Flavor(s)</label>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="flavor" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Vanilla Bean</span>
+</label>
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="flavor" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Belgian Chocolate</span>
+</label>
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="flavor" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Lemon Elderflower</span>
+</label>
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="flavor" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Red Velvet</span>
+</label>
+</div>
+</div>
+<!-- Filling Selection -->
+<div>
+<label class="block font-label-lg text-on-surface mb-3">Preferred Filling & Frosting</label>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="filling" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Salted Caramel</span>
+</label>
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="filling" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Raspberry Coulis</span>
+</label>
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="filling" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Swiss Meringue</span>
+</label>
+<label class="flex items-center gap-3 bg-surface p-3 rounded-xl border border-outline-variant/60 cursor-pointer hover:border-primary transition-colors">
+<input class="accent-primary w-4 h-4" name="filling" type="checkbox"/>
+<span class="font-body-sm text-on-surface">Espresso Ganache</span>
+</label>
+</div>
+</div>
+<!-- Inspiration Photo Upload -->
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Inspiration Photos & Mood Boards</label>
+<div class="border-2 border-dashed border-outline-variant rounded-2xl p-8 text-center bg-surface hover:bg-surface-container-high transition-colors cursor-pointer relative">
+<input class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" multiple="" type="file"/>
+<div class="flex flex-col items-center justify-center gap-2">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">cloud_upload</span>
+</div>
+<p class="font-label-lg text-on-surface">Click to upload inspiration images</p>
+<p class="font-body-sm text-on-surface-variant">PNG, JPG, HEIC up to 10MB each</p>
+</div>
+</div>
+</div>
+<!-- Special Requests -->
+<div>
+<label class="block font-label-lg text-on-surface mb-2">Special Requests, Theme & Dietary Notes</label>
+<textarea class="w-full bg-surface p-4 rounded-xl border border-outline-variant text-body-md text-on-surface outline-none focus:border-primary transition-colors resize-none" placeholder="Tell us about your color palette, floral arrangements, theme, or any dietary restrictions (gluten-free, vegan options available)..." rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<div class="text-center pt-4">
+<button class="w-full md:w-auto bg-primary text-on-primary font-label-lg px-12 py-4 rounded-full hover:bg-primary-container hover:text-on-primary-container transition-all shadow-md" type="submit">
+            Submit Custom Cake Inquiry
+          </button>
+</div>
+</form>
+</div>
+</section>
+<!-- Gallery Grid Showcase -->
+<section class="w-full py-20 px-gutter bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-4">
+<div>
+<span class="font-label-md uppercase tracking-wider text-primary mb-2 block">Portfolio</span>
+<h2 class="font-headline-lg text-on-surface">Recent Custom Creations</h2>
+</div>
+<p class="font-body-md text-on-surface-variant max-w-md">Every creation is tailored to the unique aesthetic of our clients. Explore our archive of bespoke pastry artistry.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="relative rounded-2xl overflow-hidden aspect-[4/5] group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A minimalist white single-tier cake adorned with pressed edible botanical flowers and delicate gold lettering reading Happy Birthday, displayed on a warm wooden pedestal against a soft blush pink background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAG_LWZ4AGbO3M_ALsyeey0B-ateRr2iKhtIEC6A4lRktAK_Jzh5Ag34gzqJOCYiolNv3p48kBf6GPPPF4jJiYlcq3rEmjEmmLZqvFNH6uzaV3d3MY_UiEscfkErrYpbbprkaKYQdkqkjocdl5qGYjnDdin9bmYu2dsqvFCvQdmrNun6ahBGKhfwnIgK22b2ivYaJ7sA5A8DkS6kRbR9gv1-RshI9COIGuSy7f245sFM3qTWNIHQipT')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+<span class="font-label-md text-primary-fixed uppercase tracking-wider">Botanical Minimalist</span>
+<h4 class="font-headline-sm text-on-primary font-normal">Pressed Flower Birthday Cake</h4>
+</div>
+</div>
+<div class="relative rounded-2xl overflow-hidden aspect-[4/5] group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A grand 4-tier wedding cake with ruffled buttercream tiers, adorned with fresh cascading blush roses and eucalyptus leaves, photographed in warm natural sunlight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC8PN-af4z56bjEBkI9WfIyFDJYUu6Zohz5iBIdJxrYe0AyfLCLAz_Xt1MDhHqKRyYMp1EadZ78YiJiKeFioQuQTLVWQyoKWCWja8La9VLKjZC6s7j5JR3eorw5HD5CrNVnNPRiEj-XgaFT4yfKy_uLIpdioW5AB92PpBOdsJsSOzQyaJ9zmWTosZqECYPLSPwaLLbA49es2sC78NfFgpyEiyBeIEvqUAk2O6KYgilrtvZDRsy02W0p')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+<span class="font-label-md text-primary-fixed uppercase tracking-wider">Wedding Celebration</span>
+<h4 class="font-headline-sm text-on-primary font-normal">Cascading Rose Cascade Tier</h4>
+</div>
+</div>
+<div class="relative rounded-2xl overflow-hidden aspect-[4/5] group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="An artistic hand-painted watercolor cake with soft pastel pink and lavender brushstrokes, topped with glossy white chocolate drips and gold sprinkles." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGNmzK9Skcai9Bid7fLbb3Ehs2XWIRsJfGgxX6AXYQY0VppDb1YYpyPMlEl67oWFymvrnk29KScRr2JSOSQYUrCXhFk38qnMOZENcMoIHOuOTZg1fZSTZhbjdS4gdth320AdKBqMczzh04QvXKTreu1TR467K4Gx7uPNww-EiZA2NMj_l0x6Qef_gSZRTH6SYU_fQ-sqhjAAA6NiOVH9BjD5acJgsQ7WzGa1mrklGx2rQlNb0CRCbc')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+<span class="font-label-md text-primary-fixed uppercase tracking-wider">Modern Artistry</span>
+<h4 class="font-headline-sm text-on-primary font-normal">Watercolor & Ganache Drip</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-gutter grid grid-cols-1 md:grid-cols-4 gap-space-xl mb-space-xl"><div><h3 class="font-headline-sm text-primary mb-space-sm">Sweet Whisk</h3><p class="text-body-sm text-on-surface-variant mb-space-md">Artisanal cakes and pastries baked fresh daily with organic ingredients and endless love.</p><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80">public</span><span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80">share</span><span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80">photo_camera</span></div></div><div><h3 class="font-headline-sm text-on-surface mb-space-sm">Visit Us</h3><p class="text-body-sm text-on-surface-variant">123 Pastry Lane, Sugarloaf District</p><p class="text-body-sm text-on-surface-variant mt-1">Phone: (555) 123-4567</p></div><div><h3 class="font-headline-sm text-on-surface mb-space-sm">Opening Hours</h3><p class="text-body-sm text-on-surface-variant">Mon - Fri: 7:00 AM - 7:00 PM</p><p class="text-body-sm text-on-surface-variant mt-1">Sat - Sun: 8:00 AM - 6:00 PM</p></div><div><h3 class="font-headline-sm text-on-surface mb-space-sm">Newsletter</h3><p class="text-body-sm text-on-surface-variant mb-space-sm">Subscribe for secret recipes and seasonal updates.</p><div class="flex gap-2"><input class="bg-surface px-4 py-2 rounded-full border border-outline-variant text-body-sm w-full outline-none focus:border-primary" placeholder="Your email" type="email"/><button class="bg-primary text-on-primary px-4 py-2 rounded-full text-label-lg hover:bg-primary-container hover:text-on-primary-container transition-colors">Join</button></div></div></div><div class="max-w-7xl mx-auto px-gutter pt-space-md border-t border-outline-variant/30 text-center text-body-sm text-on-surface-variant">© 2024 Sweet Whisk Artisanal Bakery. All rights reserved.</div></footer></body></html>

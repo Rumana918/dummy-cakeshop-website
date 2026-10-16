@@ -1,0 +1,33 @@
+import express from 'express';
+import {
+  register,
+  login,
+  logout,
+  getMe,
+  updateProfile,
+  changePassword,
+  forgotPassword,
+  resetPassword,
+  addAddress,
+  deleteAddress,
+  setDefaultAddress
+} from '../controllers/authController.js';
+import { protect } from '../middleware/authMiddleware.js';
+
+const router = express.Router();
+
+router.post('/register', register);
+router.post('/login', login);
+router.post('/logout', logout);
+router.get('/me', protect, getMe);
+router.put('/profile', protect, updateProfile);
+router.put('/change-password', protect, changePassword);
+router.post('/forgot-password', forgotPassword);
+router.post('/reset-password/:token', resetPassword);
+
+// User Addresses
+router.post('/addresses', protect, addAddress);
+router.delete('/addresses/:id', protect, deleteAddress);
+router.put('/addresses/:id/default', protect, setDefaultAddress);
+
+export default router;
