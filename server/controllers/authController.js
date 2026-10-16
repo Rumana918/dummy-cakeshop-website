@@ -95,8 +95,11 @@ export const login = async (req, res, next) => {
 // @desc    Logout user & clear cookie
 // @route   POST /api/auth/logout
 export const logout = (req, res) => {
+  const isProduction = process.env.NODE_ENV === 'production';
   res.cookie('token', '', {
     httpOnly: true,
+    secure: isProduction,
+    sameSite: isProduction ? 'none' : 'lax',
     expires: new Date(0)
   });
   res.json({ success: true, message: 'Logged out successfully' });
